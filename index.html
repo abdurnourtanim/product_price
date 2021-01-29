@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	
+
+	<div class="container">
+		<h2 class="text-center mt-3 text-success text-uppercase">Calculator</h2>
+		<div class="row">
+			<div class="col-md-6 mx-auto py-5">
+				<div class="form-group form-group-inline">
+					<label for="">Price</label>
+					<input id="price" type="text" class="form-control">
+				</div>
+				<div class="form-group form-group-inline">
+					<label for="">Tax</label>
+					<input id="tax" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<textarea id="resultBox"  cols="30" rows=5 class="form-control" readonly></textarea>
+				</div>
+				<button id="check" class="btn btn-success btn-block">Check</button>
+				<button id="reset" class="btn btn-danger btn-block">Reset</button>
+			</div>
+		</div>
+	</div>
+
+
+
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
